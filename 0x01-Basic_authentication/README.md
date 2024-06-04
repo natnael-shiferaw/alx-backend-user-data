@@ -1,7 +1,9 @@
 0x01. Basic authentication
 ==========================
 
-- By Dev Nderitu
+## `Back-end` `Authentification`
+
+
 
 Background Context
 ------------------
@@ -108,7 +110,6 @@ bob@dylan:~$
 - GitHub repository: `alx-backend-user-data`
 - Directory: `0x01-Basic_authentication`
 
- Done? Help Check your code Get a sandbox
 
 ### 1\. Error handler: Unauthorized
 
@@ -177,7 +178,6 @@ bob@dylan:~$
 - Directory: `0x01-Basic_authentication`
 - File: `api/v1/app.py, api/v1/views/index.py`
 
- Done? Help Check your code Get a sandbox
 
 ### 2\. Error handler: Forbidden
 
@@ -246,7 +246,6 @@ bob@dylan:~$
 - Directory: `0x01-Basic_authentication`
 - File: `api/v1/app.py, api/v1/views/index.py`
 
- Done? Help Check your code Get a sandbox
 
 ### 3\. Auth class
 
@@ -294,7 +293,6 @@ bob@dylan:~$
 - Directory: `0x01-Basic_authentication`
 - File: `api/v1/auth, api/v1/auth/__init__.py, api/v1/auth/auth.py`
 
- Done? Help Check your code Get a sandbox
 
 ### 4\. Define which routes don't need authentication
 
@@ -344,7 +342,6 @@ bob@dylan:~$
 - Directory: `0x01-Basic_authentication`
 - File: `api/v1/auth/auth.py`
 
- Done? Help Check your code Get a sandbox
 
 ### 5\. Request validation
 
@@ -415,7 +412,6 @@ bob@dylan:~$
 - Directory: `0x01-Basic_authentication`
 - File: `api/v1/app.py, api/v1/auth/auth.py`
 
- Done? Help Check your code Get a sandbox
 
 ### 6\. Basic auth
 
@@ -471,7 +467,6 @@ bob@dylan:~$
 - Directory: `0x01-Basic_authentication`
 - File: `api/v1/app.py, api/v1/auth/basic_auth.py`
 
- Done? Help Check your code Get a sandbox
 
 ### 7\. Basic - Base64 part
 
@@ -521,7 +516,6 @@ bob@dylan:~$
 - Directory: `0x01-Basic_authentication`
 - File: `api/v1/auth/basic_auth.py`
 
- Done? Help Check your code Get a sandbox
 
 ### 8\. Basic - Base64 decode
 
@@ -568,7 +562,6 @@ bob@dylan:~$
 - Directory: `0x01-Basic_authentication`
 - File: `api/v1/auth/basic_auth.py`
 
- Done? Help Check your code Get a sandbox
 
 ### 9\. Basic - User credentials
 
@@ -615,7 +608,6 @@ bob@dylan:~$
 - Directory: `0x01-Basic_authentication`
 - File: `api/v1/auth/basic_auth.py`
 
- Done? Help Check your code Get a sandbox
 
 ### 10\. Basic - User object
 
@@ -686,7 +678,6 @@ bob@dylan:~$
 - Directory: `0x01-Basic_authentication`
 - File: `api/v1/auth/basic_auth.py`
 
- Done? Help Check your code Get a sandbox
 
 ### 11\. Basic - Overload current_user - and BOOM
 
