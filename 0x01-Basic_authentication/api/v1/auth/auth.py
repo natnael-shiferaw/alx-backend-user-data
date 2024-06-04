@@ -7,6 +7,7 @@ from flask import request
 from typing import List, TypeVar
 from models.user import User
 
+
 class Auth:
     """Class for handling user authentication"""
 
@@ -15,17 +16,18 @@ class Auth:
 
         Args:
             path (str): The path to check
-            excluded_paths (List[str]): List of paths that do not require authentication
+            excluded_paths (List[str]): List of paths that do not
+                                        require authentication
 
         Returns:
             bool: True if authentication is required, False otherwise
         """
         if not path or not excluded_paths:
             return True
-        
+
         if path[-1] == '/':
             path = path[:-1]
-        
+
         for excluded_path in excluded_paths:
             if excluded_path.endswith('*'):
                 if path.startswith(excluded_path[:-1]):
