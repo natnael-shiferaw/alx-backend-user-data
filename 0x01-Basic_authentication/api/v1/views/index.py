@@ -6,6 +6,7 @@ Module of Index views
 from flask import jsonify, abort
 from api.v1.views import app_views
 
+
 @app_views.route('/status', strict_slashes=False)
 def status() -> str:
     """GET /api/v1/status
@@ -13,6 +14,7 @@ def status() -> str:
         JSON response with the status of the API
     """
     return jsonify({"status": "OK"})
+
 
 @app_views.route('/stats/', strict_slashes=False)
 def stats() -> str:
@@ -25,6 +27,7 @@ def stats() -> str:
     stats['users'] = User.count()
     return jsonify(stats)
 
+
 @app_views.route('/unauthorized', strict_slashes=False)
 def unauthorized() -> str:
     """GET /api/v1/unauthorized
@@ -32,6 +35,7 @@ def unauthorized() -> str:
         Aborts with a 401 status code
     """
     abort(401)
+
 
 @app_views.route('/forbidden', strict_slashes=False)
 def forbidden() -> str:
